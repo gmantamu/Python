@@ -5,7 +5,7 @@ def guess(n):
     randNum = random.randint(1,n)
     guess = 0
     while guess != randNum:
-        guess = input(f'Guess a number between 1 and {n}: ')
+        guess = int(input(f'Guess a number between 1 and {n}: '))
         print(guess)
 
 guess(10)
