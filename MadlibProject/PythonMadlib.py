@@ -5,3 +5,8 @@
 # print("Happy " + birthday!)
 # print("Happy {}".format(birthday!))
 # print(f"Happy {birthday!}")
+
+Adj = input("Input an adjective: ")
+Verb1 = input("Input a verb: ")
+Verb2 = input("Input a second verb: ")
+Person = input("Input a person: ")
